@@ -38,3 +38,11 @@ a:visited {
     font-style: normal;
     color: rgb(2, 2, 29);
 }
+
+/* Style Defining Position of Links to Professional Page */
+.nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
