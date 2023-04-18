@@ -1,3 +1,40 @@
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+/* Body Font Family, Size, BG Color and Font Color */
+body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    background-color: ivory;
+    color: rgb(40, 20, 40);
+}
+/* Paragraph Font family, Size, Style, and Font Color */
+p {font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(60, 59, 59);
+}
+/* List Font Family, Weight, and Font Color  */
+li {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: black;
+}
+/* a Font Color */
+a{font-family: normal;
+color: maroon;
+text-decoration: none;
+}
+
+/* a hover text decoration, weight, and size change */
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* Visited links color */
+a:visited {
+    color:blueviolet ;
+}
+
+/* List Heading For Unordered List in an Ordered List */
+.listheading{
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(2, 2, 29);
 }
